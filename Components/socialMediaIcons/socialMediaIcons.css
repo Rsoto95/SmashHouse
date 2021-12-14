@@ -1,0 +1,42 @@
+.socialMediaIconsContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    column-gap: 30px;
+}
+
+
+.icons{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.icons:hover{
+    background-color: gray;
+    cursor:pointer;
+}
+
+
+
+
+.facebookIcon2{
+    height: 70px;
+    left: 10px;
+    align-items: center;
+}
+
+.twitterIcon2{
+    height: 70px;
+    left: 10px;
+}
+
+.youtubeIcon2{
+    height: 70px;
+    left: 10px;
+}
+
+.twitchIcon2{
+    height: 70px;
+    left: 10px;
+}

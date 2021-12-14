@@ -1,0 +1,27 @@
+.iFrame{
+    height: 430px;
+    width: 650px;
+    
+}
+
+
+.stickyContainer{
+
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0.0001%;
+    z-index: 4;
+    left:99.9%;
+    width: 300px;
+    height: 125px;
+            
+}
+
+.listTwitch{
+    border-style: solid;
+}
+.listYoutube{
+    border-style: solid;
+    position: absolute;
+    bottom: 0.01px;
+}

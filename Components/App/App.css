@@ -1,0 +1,66 @@
+body{
+  background-image: url("./solid-color-background-1.jpg");
+  margin: 0%;
+}
+
+.App{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(19,1fr);
+}
+
+.Header{
+  display: grid;
+  grid-column: span 13;
+}
+
+.youtube{
+  display: grid;
+  position: absolute; 
+  right: 37%;
+  height: 500px;
+  top: 30%;
+}
+
+.VideoList::-webkit-scrollbar{
+  display: none;
+}
+
+.VideoList{
+background-color: whitesmoke;
+position: absolute;
+top: 25%;
+z-index: 2;
+left:99.9%;
+width: 300px;
+height: 310px;
+overflow-y: scroll;
+}
+
+.socialMediaIcons{
+z-index: 10;
+position: absolute;
+width: 900px;
+height:100px ;
+top: 100%;
+
+
+}
+
+.followUs{
+  margin-top: 5%;
+  padding-bottom: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.footer {
+  display: grid;
+  grid-row: 20/21;
+  grid-column: 1/13;
+  position:relative;
+  background-color:black  ;
+  height: 200px;
+  color: white;
+  margin-top: 200px;
+}
