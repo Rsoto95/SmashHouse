@@ -1,2 +1,2 @@
 # SmashHouseWebsite
- This is My first Website
+Website Created for our Local Smash Community!
