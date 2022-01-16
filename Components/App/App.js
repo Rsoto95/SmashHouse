@@ -8,9 +8,9 @@ function App() {
   return (
     <div>
       <div className="App">
-        <div className="Header">
+        <header className="Header">
           <Header />
-        </div>
+        </header>
         <div className="youtube">
           <Youtube />
           <div className="socialMediaIcons">
